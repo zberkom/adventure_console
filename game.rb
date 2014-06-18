@@ -140,4 +140,32 @@ print ">"
 answer = gets
 abort_if answer, 1, "The ship blew up and you died."
 
-puts "The ship powered up and you got away!"
+puts "The ship powered up and you open the sliding door. Just outside the door, 6 battle droids 
+are standing outside ready to shoot. Do you want to,"
+puts "1) Shoot them with the space ship."
+puts "2) Hide behind the wall."
+print ">"
+
+answer = gets
+abort_if answer, 1, "You couldn't reach the ship in time. They shoot you in the back."
+
+puts "The droids come around the corner and surround you. You can,"
+puts "1) Burst through them and try to escape in the ship."
+puts "2) Shoot them with your blaster."
+puts "3) Surrender."
+print ">"
+
+answer = gets
+abort_if answer, 2, "Some droids stayed outside and shoot you as you pass them. Dead again!"
+
+answer = gets
+abort_if answer, 3, "Something goes wrong at the droid control center. They go against the code and detonate the entire building."
+
+puts "You successfully elude their fire and shut the cockpit. Do you want to"
+puts"1) Shoot them with your cannons."
+puts"2) Fly away immediately."
+print ">"
+
+answer = gets
+abort_if answer, 1, "You used up the little power you had and were unable to escape the blow you and the ship sky high. MISSION FAILED!"
+abort_if answer, 2, "You barely escape with your life. Congradulations! You have successfully gotten off this rock!"
