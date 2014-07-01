@@ -1,0 +1,12 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: Sample question
+    options:
+      - text: Option 1
+        goto_file: other_file.yml
+      - text: Option 2
+        death: A horrible death
+      - text: Option 3
+        death: A slightly less horrible death

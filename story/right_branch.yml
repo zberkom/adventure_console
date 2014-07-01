@@ -1,0 +1,9 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: Sample question
+    options:
+      - text: Option 1
+      - text: Option 2
+      - text: Option 3
