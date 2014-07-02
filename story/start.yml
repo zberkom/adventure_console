@@ -18,7 +18,7 @@ questions:
       - text: Wait to see whether the landing doc is used by anyone else.
       
       - text: Get out of here and try to find some kind of speeder.
-        goto_file: wrong_way.yml  
+         
         
     #Question 2    
         
@@ -27,7 +27,7 @@ questions:
       - text: Jump behind the stack of barrels next to you.
       
       - text: Slip out the door behind you.
-        goto_file: right_branch.yml
+        goto_file: wrong_way.yml
         
       - text: Try to steal the imperial shuttle.
         death: Unfortunately you did not realize that a Sith was aboard, who was searching for the same force enhancer that you are, and you went bye, bye.
@@ -37,10 +37,14 @@ questions:
   - text: You peep through a crack in between the barrels and see that a fleet of Six TIE fighters have landed, escorting what you thought was an imperial shuttle. They all land and a battalion of imperial droids march out of a door in the side of the landing doc. The door of the shuttle lowers and your worst fears are realized a black caped Sith walks out. 
     options:
       - text: Sneak out the door behind you.
-        goto_file: right_branch.yml
+        goto_file: wrong_way.yml
       
       - text: Enter the trap door that is right underneath you using your lock pick.
         required_stuff: Electronic Lock Pick
         goto_file: trap_door.yml
     
+  
+  
+  
+  
   

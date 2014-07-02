@@ -1,0 +1,23 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: You run down the passage and dash out of the control center and enter a hanger that contains a fleet of speeders. As you rush in you encounter a few storm troopers, who instantly chalange you for a password.
+    options:
+      - text: Pull out your blaster and start shooting them.
+        required_stuff: Blaster
+      - text: Duck out the door behind you and continue running down the passage.
+        death: You run right into the droids that were chasing you and are gunned down in an instant.
+        
+  - text: Fortunately you were able to shoot the three storm troopers before they could gun you down. The droids are close behind you have to think fast about what you should do. 
+    options: 
+      - text: Jump on a speeder and fly away.
+        death: You made it away safe and unscathed.
+      - text: Stand your ground and try to hold off the attackers, whoever they might be.
+        death: You were able to hold your ground for awhile but finally the Sith Lord came in and finished you off. Maybe you should wait for that fight until you have the force powers nessicary. Try someone your own size next time.
+        
+        
+        
+        
+        
+    

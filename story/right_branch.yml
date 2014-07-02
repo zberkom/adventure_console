@@ -2,8 +2,13 @@ title: ""
 description: ""
 stuff: []
 questions:
-  - text: Sample question
+  - text: Oh Great, you are in for it now. You destroyed alot of the droids but there are alot left and they are comming quickly towards the control booth. (Now is when your choices of inventory really come into play.)
     options:
-      - text: Option 1
-      - text: Option 2
-      - text: Option 3
+      - text: Shoot the door keypad with your blaster and run for it.
+        required_stuff: Blaster
+        goto_file: run.yml
+      - text: Climb up to the window and shoot the droids down with your sniper rifle
+        required_stuff: Sniper Rifle 
+      - text: Run for it.
+        goto_file: run.yml
+        
