@@ -42,9 +42,3 @@ questions:
       - text: Enter the trap door that is right underneath you using your lock pick.
         required_stuff: Electronic Lock Pick
         goto_file: trap_door.yml
-    
-  
-  
-  
-  
-  

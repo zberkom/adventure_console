@@ -1,0 +1,23 @@
+title: BRANCH!!!!
+description: "the next best thing since trees"
+stuff:
+  limit: 3
+  limit_message: "Your crew shot you."
+  options:
+    - Blaster
+    - Grappling Hook
+    - Shield Generator
+    - Sniper Rifle
+    - Thermal Detonator
+    - Electronic Lock Pick
+questions:
+  - text: Some question text
+    options:
+
+      - text: Something else
+        goto_file: branch_name.yml
+        requires_stuff: 
+          - blaster
+
+      - text: Another question
+        death: You die
