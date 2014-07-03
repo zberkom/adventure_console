@@ -1,0 +1,13 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: You Slip down the trap door, but you make some noise and you hear the droids running over to investigate. The trap door you just entered was made to enable proticol droids to work on the fuel lines that feed the hanger. 
+    options:
+      - text: Lay down and scoot along the pipes to the next trap door.
+        goto_file: fuel_pipelines.yml
+      - text: Jump back out of the trap door and throw your thermal detinator into the droids
+        required_stuff: Thermal Detonator
+        goto_file: wrong_way.yml
+      - text: Turn quickly around, jump out of the trap door, and run for the door behind you
+        death: The Droids had you covered by the time you got out and you did not have a Thermal Detonator to use to destroy them, so they captured you and brought you before the Sith Lord, who promptly cut you in half with his light saber. 

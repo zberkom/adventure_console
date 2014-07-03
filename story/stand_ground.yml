@@ -2,11 +2,9 @@ title: ""
 description: ""
 stuff: []
 questions:
-  - text: Sample question
+  - text: You pick off a few of the droids but they are approaching quickly and some are starting to shoot at you. 
     options:
-      - text: Option 1
-        goto_file: other_file.yml
-      - text: Option 2
-        death: A horrible death
-      - text: Option 3
-        death: A slightly less horrible death
+      - text: Git out of here!!
+        goto_file: run.yml
+      - text: Stand your ground come what may.
+        death: Well you obviously thought you were more powerful and equiped than you are. These droids can do more than you think. P.S (By the way, in case you were wondering, you are dead)

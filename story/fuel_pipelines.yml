@@ -1,0 +1,14 @@
+title: ""
+description: ""
+stuff: []
+questions:
+  - text: You sneak along the pipes towards the next trap door. You've reached it.  What to do next?
+    options:
+      - text: Unlock it using your lock pick again and jump out.
+        death: You were killed instantly. No Pain. Just a 100 laser holes burned through your body. I wouldn't mess with these droids again.
+      - text: Circle back and head for the first trap door. 
+       
+  - text: You made it back and now you slowly open the trap door to make as little noise as possible. You see that the majority of the droids have left the landing doc. What now?
+    options:
+      - text: Jump out and run for the door that you should have went out in the first place.
+        goto_file: wrong_way.yml

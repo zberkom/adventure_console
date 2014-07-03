@@ -9,6 +9,7 @@ questions:
         goto_file: run.yml
       - text: Climb up to the window and shoot the droids down with your sniper rifle
         required_stuff: Sniper Rifle 
+        goto_file: stand_ground.yml
       - text: Run for it.
         goto_file: run.yml
         

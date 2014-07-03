@@ -13,7 +13,7 @@ stuff:
     
     
 questions:
-  - text: You land at the main landing doc of Rebalda (the main city on Geron). It is a large circular doc with some barrels and other materials around. Now what to do next.
+  - text: You land at the main landing doc of Rebalda (the largest city on Geron). It is a large circular doc with some barrels and other materials around. Now what to do next.
     options:
       - text: Wait to see whether the landing doc is used by anyone else.
       

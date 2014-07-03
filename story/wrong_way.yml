@@ -6,8 +6,9 @@ questions:
     options:
       - text: Shoot the door lock with your blaster to disable the door. 
         required_stuff: Blaster
-
+        goto_file: run.yml
       - text: Dirrect all turrets in the landing doc towards the shuttles and fire! 
         goto_file: right_branch.yml
       - text: Bi-pass the control booth and run down the passage to escape.
+        goto_file: run.yml
         
